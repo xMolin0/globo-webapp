@@ -38,7 +38,7 @@ variable "api_key" {
 }
 
 variable "playbook_repository" {
-  type    = string
+  type        = string
   description = "(Required) Repository containing the playbook to be used for provisioning. URI"
 }
 
